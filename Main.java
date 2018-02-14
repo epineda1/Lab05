@@ -22,7 +22,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-            System.out.println("Enter a hexadecimal number:");
+            System.out.println("Enter a hexadecimal number:"); //asks for user input
             hex_value = scanner.next();
 
             if (hex_value.startsWith("0x")) {
